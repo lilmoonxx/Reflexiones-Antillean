@@ -7,7 +7,7 @@ const reflexiones = [
     id: 1,
     nombre: "Kailany",
     texto: "Me encantó la experiencia. Muchas veces pasamos por alto a los envejecientes porque nos enfocamos más en los niños y en el futuro, sin darnos cuenta de que gracias a ellos estamos donde estamos hoy. Tener la oportunidad de compartir con ellos me hizo reflexionar sobre lo importante que es brindarles tiempo, atención y cariño. El poder pintarles las uñas a las damas y verlas tan felices con ese pequeño detalle me llenó de una alegría inmensa. También el simple hecho de conversar con ellas fue muy especial, ya que en esos momentos se crea una conexión genuina que va más allá de cualquier otra cosa. Hoy confirmé que no se necesitan grandes gestos para hacer feliz a alguien; a veces, un acto sencillo puede alegrar completamente el día de otra persona. Y eso, sin duda, también llena el corazón de quien lo da.",
-    colorFondo: "bg-yellow-40",
+    colorFondo: "bg-yellow-50",
     colorBorde: "border-yellow-200",
     colorSombra: "shadow-yellow-200/40",
     colorBoton: "bg-yellow-200 hover:bg-yellow-300 text-yellow-900",
