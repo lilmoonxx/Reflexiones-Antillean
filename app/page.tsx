@@ -6,8 +6,8 @@ const reflexiones = [
   {
     id: 1,
     nombre: "Kailany",
-    texto: "Me encantó la experiencia. Muchas veces pasamos por alto a los envejecientes porque nos enfocamos más en los niños y en el futuro sin darnos cuenta de que gracias a ellos estamos donde estamos hoy. Tener la oportunidad de compartir con ellos me hizo reflexionar sobre lo importante que es brindarles tiempo, atención y cariño. El poder pintarles las uñas a las damas y verlas tan felices con ese pequeño detalle me llenó de una alegría inmensa. También el simple hecho de conversar con ellas fue muy especial, ya que en esos momentos se crea una conexión genuina que va más allá de cualquier otra cosa. Hoy confirmé que no se necesitan grandes gestos para hacer feliz a alguien; a veces, un acto sencillo puede alegrar completamente el día de otra persona. Y eso, sin duda, también llena el corazón de quien lo da.",
-    colorFondo: "bg-yellow-50",
+    texto: "Me encantó la experiencia. Muchas veces pasamos por alto a los envejecientes porque nos enfocamos más en los niños y en el futuro, sin darnos cuenta de que gracias a ellos estamos donde estamos hoy. Tener la oportunidad de compartir con ellos me hizo reflexionar sobre lo importante que es brindarles tiempo, atención y cariño. El poder pintarles las uñas a las damas y verlas tan felices con ese pequeño detalle me llenó de una alegría inmensa. También el simple hecho de conversar con ellas fue muy especial, ya que en esos momentos se crea una conexión genuina que va más allá de cualquier otra cosa. Hoy confirmé que no se necesitan grandes gestos para hacer feliz a alguien; a veces, un acto sencillo puede alegrar completamente el día de otra persona. Y eso, sin duda, también llena el corazón de quien lo da.",
+    colorFondo: "bg-yellow-40",
     colorBorde: "border-yellow-200",
     colorSombra: "shadow-yellow-200/40",
     colorBoton: "bg-yellow-200 hover:bg-yellow-300 text-yellow-900",
@@ -33,11 +33,40 @@ const reflexiones = [
     colorBoton: "bg-purple-200 hover:bg-purple-300 text-purple-900",
     colorTextoPrincipal: "text-purple-950",
   },
+  {
+    id: 4,
+    nombre: "Angel",
+    texto: "Me tocó compartir con Blanca, María y Francisca. Con Blanca pude pintar y hablar y con las otras dos, que estaban encamadas, simplemente conversé y oré por ellas. Fue algo sencillo, pero se sintió bien genuino. El ambiente era tranquilo y me hizo reflexionar sobre lo importante que es dar tiempo y atención. Más que una tarea lo vi como una oportunidad de servir y aprender a ser más empático.",
+    colorFondo: "bg-green-50",
+    colorBorde: "border-green-200",
+    colorSombra: "shadow-green-200/40",
+    colorBoton: "bg-green-200 hover:bg-green-300 text-green-900",
+    colorTextoPrincipal: "text-green-950",
+  },
+  {
+    id: 5,
+    nombre: "Jeffrey",
+    texto: "La experiencia con Blanca Iris Lugo me marcó profundamente. A pesar de su poca audición y su movilidad reducida, mostró una cooperación y un interés que jamás olvidaré. Al principio su rostro era neutral, pero en cuanto empezamos con la actividad de arte-terapia, algo mágico ocurrió: un interes y una emocion viva iluminó su cara. Fue conmovedor ver cómo una persona que quizás ha sido olvidada, que pasa sus días encerrada entre cuatro paredes, volvía a sentirse útil y feliz. Esta experiencia me enseñó que una visita inesperada, un poco de compañía y una actividad sencilla pueden devolverle la alegría a quien ya la había perdido. Nunca subestimemos el poder de estar presentes para los demás porque podemos ser ese rayito de luz que necesitan para continuar.",
+    colorFondo: "bg-orange-50",
+    colorBorde: "border-orange-200",
+    colorSombra: "shadow-orange-200/40",
+    colorBoton: "bg-orange-200 hover:bg-orange-300 text-orange-900",
+    colorTextoPrincipal: "text-orange-950",
+  },
+  {
+    id: 6,
+    nombre: "Hannah",
+    texto: "Llegamos al hogar de ancianos y comenzamos la actividad con unos coritos y una oración. Después, le pinté las uñas a cuatro ancianas mientras conversaba con ellas y les hacía compañía. Durante la actividad me sentí feliz al poder compartir con ellas, ya que me recordaban a mi abuelita, quien falleció hace dos meses. Fue un momento emotivo para mí porque ella siempre me pedía que le pintara las uñas, así que esta experiencia me trajo muchos recuerdos. Al mismo tiempo, ver a las ancianas contentas y agradecidas por sus uñas pintadas me hizo sentir muy bien. También me impactó cuando una de ellas dijo que necesitaban más jóvenes dispuestos a cuidar y pasar tiempo con los ancianos. Esa frase me hizo reflexionar sobre la importancia de dedicarles tiempo y atención. En general, me gustó mucho la experiencia porque me permitió ayudar, compartir y crear un momento especial tanto para ellas como para mí.",
+    colorFondo: "bg-pink-50",
+    colorBorde: "border-pink-200",
+    colorSombra: "shadow-pink-200/40",
+    colorBoton: "bg-pink-200 hover:bg-pink-300 text-pink-900",
+    colorTextoPrincipal: "text-pink-950",
+  }
 ];
 
 export default function Home() {
   const [seleccionado, setSeleccionado] = useState<null | typeof reflexiones[0]>(null);
-  
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -52,7 +81,7 @@ export default function Home() {
   return (
     <div className="relative min-h-screen bg-slate-50 font-sans p-6 md:p-12 flex flex-col justify-center overflow-hidden">
       
-      {/* EFECTO DE LUZ QUE SIGUE AL MOUSE (Más notable) */}
+      {/* EFECTO DE LUZ QUE SIGUE AL MOUSE */}
       <div 
         className="pointer-events-none fixed inset-0 z-0 transition-opacity duration-300"
         style={{
