@@ -82,6 +82,16 @@ const reflexiones = [
     colorSombra: "shadow-teal-200/40",
     colorBoton: "bg-teal-200 hover:bg-teal-300 text-teal-900",
     colorTextoPrincipal: "text-teal-950",
+  },
+  {
+    id: 9,
+    nombre: "Guillermo",
+    texto: "La actividad en la villa Ebenezer fue todo un éxito. Pudimos compartir un buen tiempo de cálidad con los señores, además de conocerlos y compartir experiencias con ellos. Puedo decir con certeza que ellos se sintieron muy bien al recibir esta visita de parte nuestra. Para concluir puedo confirmar que la actividad cumplió y superó todas nuestras espectativas. Sin dudarlo, volvería a realizar esta actividad.",
+    colorFondo: "bg-neutral-100",
+    colorBorde: "border-neutral-300",
+    colorSombra: "shadow-neutral-300/40",
+    colorBoton: "bg-neutral-300 hover:bg-neutral-400 text-neutral-900",
+    colorTextoPrincipal: "text-neutral-950",
   }
 ];
 
