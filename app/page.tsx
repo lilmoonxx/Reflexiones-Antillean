@@ -62,6 +62,26 @@ const reflexiones = [
     colorSombra: "shadow-pink-200/40",
     colorBoton: "bg-pink-200 hover:bg-pink-300 text-pink-900",
     colorTextoPrincipal: "text-pink-950",
+  },
+  {
+    id: 7,
+    nombre: "Kleymary",
+    texto: "Fue una experiencia bien bonita en el ancianato. Compartimos con ellos, jugamos, les pintamos las uñas y también les dimos masajes en las manos. Aunque parecen cosas simples, se notaba que para ellos significaba mucho. Me gustó mucho ver cómo sonreían con pequeños detalles. A veces uno piensa que necesita hacer algo grande para hacer feliz a alguien, pero entendí que no es así. Con solo estar ahí, escuchar y dar un poco de cariño, ya estábamos haciendo una diferencia. Esta experiencia me hizo reflexionar sobre la importancia de valorar a las personas mayores. Ellos tienen muchas historias, han vivido mucho, y merecen amor, respeto y compañía. También me hizo pensar en lo rápido que pasa el tiempo y en lo importante que es aprovechar cada momento con las personas que queremos.",
+    colorFondo: "bg-sky-50",
+    colorBorde: "border-sky-200",
+    colorSombra: "shadow-sky-200/40",
+    colorBoton: "bg-sky-200 hover:bg-sky-300 text-sky-900",
+    colorTextoPrincipal: "text-sky-950",
+  },
+  {
+    id: 8,
+    nombre: "Sofia",
+    texto: "Tuve el privilegio de asistir a un programa de visitar ancianos en un hogar de cuidado. Esta experiencia me demostró que el corazón realmente se satisface y se siente bien cuando se dedica un tiempo de calidad con personas que realmente le hace falta esa conexión social. Con poder asistir, cantar, jugar y crear arte con los ancianos visitados y hablar con ellos sobre su vida, sus experiencias y sus historias me recordaba que todos somos personas que deseamos y buscamos de conexiones humanas con los que nos importan y amamos. Estoy agradecida de poder haber asistido este evento con el poder ayudar donde necesitaban y tomar fotografías de estos momentos que se hacen memorias para cada uno de nosotros.",
+    colorFondo: "bg-teal-50",
+    colorBorde: "border-teal-200",
+    colorSombra: "shadow-teal-200/40",
+    colorBoton: "bg-teal-200 hover:bg-teal-300 text-teal-900",
+    colorTextoPrincipal: "text-teal-950",
   }
 ];
 
